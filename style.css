@@ -1,0 +1,116 @@
+*{
+    text-align: left;
+}
+ .header{
+     
+      display: grid;
+     text-align: left;
+      gap: 4px 3px;
+      grid-template-columns: 69% 10% 10% 10%;
+     
+ }
+  .site-title{
+     background-color: rgb(163, 163, 34);
+     padding: 30px;
+    
+    
+     
+  }
+  .nav{
+     background-color: pink;
+     padding: 30px 0px;
+  
+    column-gap: 1px;
+  }
+ .sline{
+     display: grid;
+     grid-template-columns: 84% 20% ;
+     gap: 4px 3px;
+     grid-template-rows: 80px auto ;
+    
+ }
+  .post-title{
+    background-color: rgb(139, 189, 204);
+    padding: 30px;
+    margin-top: 4px;
+    
+   
+  }
+  .sidebar{
+     background-color: orange;
+     padding: 40px;
+     margin-top: 4px;
+     height: 190px;
+     text-align: left;
+    
+    
+  }
+  .ads{
+    background-color: rgb(27, 100, 46);
+    padding: 10px;
+    margin-top: 4px;
+    height: 190px;
+    
+ }
+ .os{
+    background-color: rgb(196, 39, 148);
+    padding: 10px;
+    margin-top: 4px;
+    height: 190px;
+ }
+  
+  .right{
+   grid-template-rows: auto auto ;
+   grid-template-columns: 78%;
+    display: grid;
+    gap: 0px 2px;
+     
+  }
+  .left{
+    grid-template-columns: 7% 93%;
+    grid-template-rows: 208% auto;
+    display: grid;
+    gap: 0 2px;
+    text-align: left;
+   
+  }
+  .post-meta{
+    background-color: aquamarine;
+    padding: 30px;
+  
+  }
+  .footer{
+    display: grid;
+    gap: 50px 2px;
+    background-color: rgb(179, 42, 42);
+    padding: 40px;
+    margin-top: 4px;
+   
+  }
+  .main{
+     display: grid;
+     background-color: gray;
+   
+    margin-left: 4px;
+     margin-right: 4px;
+     height: 300px;
+   
+  }
+  .yawa{
+    display: grid;
+    background-color: rgb(233, 247, 115);
+  margin-top: 4px;
+   margin-left: 114px;
+   margin-right: 299px;
+    height: 319px;
+     
+ }
+ .footer{
+    display: grid;
+    background-color: rgb(141, 114, 114);
+  margin-top: 4px;
+  
+    height: 70px;
+     
+ }
+ 
